@@ -35,3 +35,6 @@ Se modificarán los argumenteos de entrada pasando a ser tres:
 
 La aplicación generará el código de barras como un fichero jpg en una carpeta con el formato indicado como parámetro.
 
+### Ejercicio 3
+La librería Zxing permite identificar los codigos de barras de una foto.
+Añadir un nuevo endpoint que reciba una imagen jpg en la peticion y devuelva un array json con los codigos de barras detectados en la foto.

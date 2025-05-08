@@ -34,4 +34,16 @@ public class Recursos {
 
     }
 
+    @POST
+    @Path("/persona")
+    public Response crearPersona(Persona persona) {
+
+
+        persona.setId(34);
+
+
+        return Response.ok(persona).build();
+
+    }
+
 }
